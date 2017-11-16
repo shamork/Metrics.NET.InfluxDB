@@ -125,7 +125,7 @@ namespace Metrics.InfluxDB.Model
 
         /// <summary>
         /// Formats the floating-point value to a string used in the line protocol format.
-        /// <remarks>NaN/INF/+INF/-INF will be convert to 0d. Because influxDb DOES NOT SUPPORT those values</remarks>>
+        /// <remarks>NaN/INF/+INF/-INF will be convert to 0d. Because influxDb DOES NOT SUPPORT those values</remarks>
         /// </summary>
         /// <param name="value">The floating-point value to format.</param>
         /// <returns>The value formatted as a string used in the line protocol format.</returns>
